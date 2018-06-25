@@ -1,13 +1,13 @@
 <template>
   <form>
     <div class="form-group" v-bind:class="[{ 'has-danger': formErrors.name }]">
-      <label for="productName">Product name</label>
+      <label for="productName">Product / Service name</label>
       <input type="text" v-model="product.name" class="form-control" id="productName" maxlength="32" placeholder="Enter product name">
       <div v-if="formErrors.name" class="form-control-feedback">{{formErrors.name}}</div>
     </div>
 
     <div class="form-group">
-      <label for="productDescription">Product description <small class="text-muted">(optional)</small></label>
+      <label for="productDescription">Product / Service description <small class="text-muted">(optional)</small></label>
       <textarea class="form-control" v-model="product.description" id="productDescription" rows="3" maxlength="128" placeholder="Enter description"></textarea>
     </div>
 
@@ -18,7 +18,7 @@
     </div>
 
     <div class="form-group">
-      <label for="file" class="d-block">Product image <small class="text-muted">(optional)</small></label>
+      <label for="file" class="d-block">Product / Service image <small class="text-muted">(optional)</small></label>
       <label class="custom-file">
         <input type="file" name="product_image" @change="onImageChanged" accept=".png, .jpg" id="file" class="custom-file-input">
         <span class="custom-file-control"></span>

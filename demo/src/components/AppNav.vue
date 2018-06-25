@@ -13,7 +13,7 @@
     </button>
 
     <a class="navbar-brand" href="#">
-      <img src="../assets/jay.svg" alt="Jayway logo" /> Jaystore
+      <img src="../assets/quixxi.jpg" alt="Quixxi logo" /> Quixxi Connect!
     </a>
 
     <div class="collapse navbar-collapse" id="appnav">
@@ -32,7 +32,7 @@
           active-class="active"
           exact
         >
-          Manage Products
+          Sell Products / Services
         </router-link>
       </div>
       <div class="nav navbar-nav pull-sm-right">

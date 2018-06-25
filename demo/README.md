@@ -1,4 +1,4 @@
-# jaystore
+# Quixxi connect formally jaystore
 
 > A Vue.js project
 
